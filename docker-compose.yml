@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  dev:
+    image: goodtools-dev
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    command: sleep infinity
+    stop_grace_period: 1s
+    working_dir: /go/src/github.com/kelledge/goodtools
+    volumes:
+      - .:/go/src/github.com/kelledge/goodtools

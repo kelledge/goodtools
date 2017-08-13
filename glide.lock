@@ -1,0 +1,10 @@
+hash: add3e654640d70dce81518b3e4a97ee2cc2a6d4453d7cf158c34c912b6e90cf5
+updated: 2017-08-01T01:21:41.917061289Z
+imports:
+- name: github.com/prataprc/goparsec
+  version: 8f09146a6cf4c1c51491f7b263d9ebb73851f24d
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+testImports: []
